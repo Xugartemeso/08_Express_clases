@@ -14,7 +14,7 @@ class Server{
     }
 
     routes(){
-        this.app.use('/api/usuarios',require('../routes/routes.usuarios'));
+        this.app.use('/api/usuarios',require('../routes/route.usuarios'));
 
         this.app.use('/contacta', (req,res)=> {
             res.sendFile(path.resolve('public/contacta.html'));   

@@ -28,8 +28,7 @@ const UsuariosDelete = (req,res) => {
 }
 
 const UsuariosPatch = (req,res) => {
-    const {id}=req.params;
-    res.json({
+     res.json({
         msg:'API-patch'
     })
 }
