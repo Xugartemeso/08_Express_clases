@@ -27,11 +27,8 @@ class Server{
         });
     }
     listen() {
-        this.app.listen(this.port, () => {console.log('http://localhost:8080') });
+        this.app.listen(this.port,() => {console.log('http://localhost:8080') });
     }
 }
-
-
-
 
 module.exports = Server;
